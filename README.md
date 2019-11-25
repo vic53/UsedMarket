@@ -25,3 +25,5 @@ Il gestionale gestisce varie tabelle che trattano i seg. argomenti:
 12. Stampa e registro dei mandati di vendita in PDF
 13. Invio note via mail su vendite oggetti ai mandanti
 14. Configurazione paramentrica minimale
+
+Il gestionale è fatto da chiamate form to form e accesso al database in Ajax
