@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Documento senza titolo</title>
+<style type="text/css">
+<!--
+.Stile1 {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.Stile2 {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.Stile3 {color: #0000FF}
+.Stile4 {color: #FF0000}
+-->
+</style>
+<script language="javascript" type="text/javascript" >
+function CloseHelp() {
+  parent.$.fancybox.close();
+  self.close();
+}
+</script>
+</head>
+
+<body>
+<table width="100%" border="0" cellpadding="2" cellspacing="2">
+  <tr>
+    <td width="97%" bgcolor="#0000CC"><span class="Stile1">HELP PAGE per... LISTA ANAGRAFICA CLIENTI </span></td>
+    <td width="3%" bgcolor="#0000CC" align="center">
+    <img src="icons/close.jpg" height="21" width="21" alt="Chiusura pagina..." class="style2"  onclick="CloseHelp()"
+      onmouseover="this.style.cursor='pointer'" title="Chiudi la pagina..." /> </td>
+  </tr>
+</table>   
+<p align="justify" class="Stile2">La pagina della lista anagrafica visualizza i record presenti nella tabella clienti in una grid parziale. Siccome non si possono visualizzare tutti i record del database, vengono visualizzati solo i record che l'utente richiede. Tale richiesta viene fatta impostando il campo di ricerca con un valore da cercare nella tabella clienti. Si pu&ograve; impostare una parola o pi&ugrave; che possono essere presenti nei campi COGNOME e NOME; per esempio se cercassi un nominativo di nome &quot;<span class="Stile4">MARIO</span>&quot; baster&agrave; impostare <span class="Stile4">MARIO</span> nel campo di ricerca e premere invio.La lista verr&agrave; elaborata e verranno visualizzati i record che hanno all'interno dei campi <span class="Stile3">COGNOME</span> o <span class="Stile3">NOME</span>, la parola <span class="Stile4">MARIO</span>.</p>
+<p align="justify" class="Stile2">La lista &egrave; impostata per visualizzare 200 record alla volta e se il risultato della ricerca &egrave; pi&ugrave; grande come numero record, si puo usare il campo pagina per selezionare gli altri record non visualizzati, spostandosi nella selezione su pi&ugrave; pagine.  </p>
+<p align="justify" class="Stile2">Se si conosce il codice ID del cliente (il campo ID &egrave; un campo numerico di tipo intero) impostare il campo RICERCA su tale valore e premere invio; se il programma trover&agrave; nel database la scheda con un ID uguale, vi aprir&agrave; la scheda richiesta altrimenti segnaler&agrave; un errore nel campo MESSAGGIO in basso nel form. </p>
+<p align="justify" class="Stile2">Se invece si vuole registrare un nuovo cliente, fare click con il mouse sul 
+bottone [nuova scheda] e il sistema registrer&agrave; immediatamente una nuova scheda cliente, portandovi nel form di registrazione dati del cliente.</p>
+<p align="justify" class="Stile2">Se volete correggere i dati anagrafici di un cliente, dopo averlo individuato nella lista della gliglia nel form, cliccate il bottone che si trova nella colonna [sel] che sta per selezione e una volta cliccato, il programma aprir&agrave; la scheda del cliente selezionato.</p>
+<p align="justify" class="Stile2">La cancellazione di un cliente &egrave; una cosa un p&ograve; pi&ugrave; particolare: se il cliente &egrave; stato registrato per errore e non ha nel database alcun collegamento a operazioni tipo ordini, fatture, pagamenti... allora si puo cancellare la scheda anagrafica senza problemi. Ma se tentate di cancellare una scheda cliente con dati collegati, il sistema vi segnaler&agrave; un ERRORE e non far&agrave; l'operazione richiesta. Solo rimuovendo i dati collegati, si pu&ograve; cancellare una scheda nel database. </p>
+<p align="justify" class="Stile2">Per tornare al menu iniziale da un qualsiasi form, cliccare sull'icona <img src="icons/48x48gif54.gif" />,<br> mentre per tornare alla pagina precedente cliccare sull'icona <img src="icons/backpage.gif" />.</p>
+</body>
+</html>
